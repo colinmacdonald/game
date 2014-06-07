@@ -13,6 +13,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "three.js": "mrdoob/three.js#r67"
+    "three.js": "mrdoob/three.js#r67",
+    "jquery": "~2.1.1"
   }
 }

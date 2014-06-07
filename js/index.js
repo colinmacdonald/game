@@ -1,7 +1,13 @@
 /*jshint browser:true */
+/*global require, $ */
 
 'use strict';
 
-function Game() {
-  console.log('game');
-}
+var Game = require('./lib/game');
+
+$(document).ready(function() {
+  var game = new Game();
+
+  game.initialize();
+  game.addCube();
+});
