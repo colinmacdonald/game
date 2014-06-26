@@ -4,7 +4,6 @@
 'use strict';
 
 var _ = require('lodash');
-var Terrain = require('./terrain');
 
 module.exports = Game;
 
@@ -26,7 +25,6 @@ Game.prototype.initialize = function() {
   this.renderer.setSize(this.width, this.height);
   this.viewport.append(this.renderer.domElement);
 
-  var terrain = new Terrain();
   this.render();
 };
 
@@ -44,5 +42,3 @@ Game.prototype.addCube = function() {
   this.scene.add(cube);
   this.camera.position.z = 5;
 };
-
-var a = 1;
