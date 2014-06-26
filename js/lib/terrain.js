@@ -42,3 +42,5 @@ Game.prototype.addCube = function() {
   this.scene.add(cube);
   this.camera.position.z = 5;
 };
+
+var a = 123123;
